@@ -7,3 +7,5 @@ license = "MIT"
 repository = "https://github.com/binghuis/filepick"
 
 [dependencies]
+inquire = "0.7.5"
+indicatif = "0.17.8"

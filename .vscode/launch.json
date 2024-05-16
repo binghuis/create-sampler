@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "包调试",
+      "type": "lldb",
+      "request": "launch",
+      "program": "${workspaceRoot}/target/debug/filepick",
+      "args": [],
+      "cwd": "${workspaceRoot}"
+    }
+  ]
+}

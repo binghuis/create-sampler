@@ -9,5 +9,8 @@
   },
   "editor.quickSuggestions": {
     "strings": "on"
+  },
+  "code-runner.executorMap": {
+    "rust": "cargo run # $fileName"
   }
 }

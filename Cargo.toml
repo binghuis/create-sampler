@@ -2,7 +2,7 @@
 name = "filepick"
 version = "0.1.1"
 edition = "2021"
-description = "实现对一堆文件随机抽样的 CLI 工具。"
+description = "对海量文件进行随机抽样的高性能 CLI 工具。"
 license = "MIT"
 repository = "https://github.com/binghuis/filepick"
 

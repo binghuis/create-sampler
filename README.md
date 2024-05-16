@@ -1,6 +1,6 @@
 # filepick
 
-实现对一堆文件随机抽样的 CLI 工具。
+对海量文件进行随机抽样的高性能 CLI 工具。
 
 ![rust](https://img.shields.io/badge/Rust-000000?logo=rust&labelColor=263238)
 

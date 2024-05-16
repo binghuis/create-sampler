@@ -1,6 +1,6 @@
 [package]
 name = "filepick"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 description = "随机从一堆文件中抽取指定数量的测试文件。"
 license = "MIT"

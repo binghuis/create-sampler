@@ -9,3 +9,7 @@ repository = "https://github.com/binghuis/filepick"
 [dependencies]
 inquire = "0.7.5"
 indicatif = "0.17.8"
+flate2 = "1.0.30"
+rand = "0.8.5"
+zip = "1.2.3"
+tar = "0.4.40"

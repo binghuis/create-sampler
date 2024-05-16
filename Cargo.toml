@@ -2,5 +2,7 @@
 name = "filepick"
 version = "0.1.0"
 edition = "2021"
-
+description = "随机从一堆文件中抽取指定数量的测试文件。"
+license = 'MIT'
+repository = 'https://github.com/binghuis/filepick'
 [dependencies]

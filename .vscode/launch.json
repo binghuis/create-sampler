@@ -1,13 +1,36 @@
 {
+  // 使用 IntelliSense 了解相关属性。
+  // 悬停以查看现有属性的描述。
+  // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "包调试",
       "type": "lldb",
       "request": "launch",
-      "program": "${workspaceRoot}/target/debug/filepick",
+      "name": "Debug executable 'filepick'",
+      "cargo": {
+        "args": ["build", "--bin=filepick", "--package=filepick"],
+        "filter": {
+          "name": "filepick",
+          "kind": "bin"
+        }
+      },
       "args": [],
-      "cwd": "${workspaceRoot}"
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug unit tests in executable 'filepick'",
+      "cargo": {
+        "args": ["test", "--no-run", "--bin=filepick", "--package=filepick"],
+        "filter": {
+          "name": "filepick",
+          "kind": "bin"
+        }
+      },
+      "args": [],
+      "cwd": "${workspaceFolder}"
     }
   ]
 }

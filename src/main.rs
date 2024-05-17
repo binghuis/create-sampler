@@ -134,8 +134,8 @@ fn sample_files(
 }
 
 fn main() -> io::Result<()> {
-    let input_dir = Path::new("input_directory");
-    let classifications = traverse_and_classify(&input_dir)?;
+    let target_dir = Path::new("../input");
+    let classifications = traverse_and_classify(&target_dir)?;
 
     print_classification_results(&classifications);
 
